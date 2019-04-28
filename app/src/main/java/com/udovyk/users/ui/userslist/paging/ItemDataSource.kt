@@ -71,5 +71,11 @@ class ItemDataSource @Inject constructor(private val apiManager: ApiManager) : P
         return progressLiveData
     }
 
+    fun clear() {
+        disposable.clear()
+    }
+
+
+
 
 }
